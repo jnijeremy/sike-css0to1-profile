@@ -1,0 +1,40 @@
+body {
+    background-image: url(../img/bg5.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.main-header {
+    text-align: center;
+    margin-top: 100px;
+    padding: 1px;
+
+    background-image: url(../img/banner.jpg);
+}
+
+h1 {
+    margin-bottom: 20px;
+
+    font-weight: 300;
+    font-size: 50px;
+    font-family: 'Open Sans', 'helvetica', arial, sans-serif;
+
+    text-shadow: 0 1px rgbs(0,0,0,0.3);
+    color: white;
+}
+
+.main-header__avatar {
+    display: block;
+    margin: 0 auto;
+    margin-top: -70px;
+    margin-bottom: 10px;
+    
+    border-radius: 999px;
+    box-shadow: 0 0px 2px 1px rgba(0,0,0,0.2);
+}
