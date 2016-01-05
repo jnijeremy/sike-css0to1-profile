@@ -97,6 +97,14 @@ h1 {
     letter-spacing: 3px;
 }
 
+.info-section header h2:after {
+    content: "";
+    display: block;
+    width: 10%;
+    margin: 10px auto;
+    border-bottom: 3px solid black;
+}
+
 .info-section__description {
     font-style: italic;
 }
