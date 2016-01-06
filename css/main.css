@@ -154,3 +154,22 @@ h1 {
 .whatido__skill--product {
     background-image: url(../img/skill-product.png);
 }
+
+/* education and experience section */
+.education-experience__list li {
+    /*background-color: red;*/
+    margin-bottom: 10px;
+    padding: 30px;
+    border: 1px solid #ddd;
+}
+
+.education-experience__list img {
+    float: left;
+    width: 180px;
+}
+
+.education-experience__list__description {
+    /*margin-left: 220px;*/
+    padding-left: 30px;
+    overflow: hidden;
+}
