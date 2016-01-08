@@ -250,6 +250,7 @@ h1 {
     position: absolute;
     /*right: 105%;*/
     left: -105%;
+    padding-top: 10px;
 
     text-align: right;
     width: 100%;
