@@ -117,7 +117,7 @@ h1 {
 }
 
 .info-section header {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     text-align: center;
 }
 
@@ -163,10 +163,8 @@ h1 {
 
 /* education and experience section */
 .education-experience__list li {
-    /*background-color: red;*/
     margin-bottom: 10px;
     padding: 30px;
-    /*border: 1px solid #ddd;*/
 }
 
 .education-experience__list img {
@@ -192,4 +190,19 @@ h1 {
 
 .photos__list li img {
     width: 100%;
+}
+
+/* get in touch section */
+.get-in-touch__list {
+    overflow: hidden;
+}
+
+.get-in-touch__list li {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.get-in-touch__list li img {
+    width: 130px;
 }
